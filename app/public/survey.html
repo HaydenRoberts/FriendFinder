@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Shrikhand" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row header">
+            <div class="logo">
+                <span id="match">Friend Finder</span>
+            </div>
+        </div>
+
+        <div class="about">
+            <h2>About you</h2>
+            <br>
+            <h4>Name (Required)</h4>
+            <input type="text" id="name" class="user-info">
+            <h4>Link to Photo Image (Required)</h4>
+            <input type="text" id="photo" class="user-info">
+        </div>
+
+        <div class="questions-1 row">
+            <span class="q-number">Q1.</span>
+            <span>Your mind is always buzzing with unexplored ideas and plans.</span>
+            <form action="" class="chosen" id="q-1">
+                <input type="radio" name="amount" value="1" checked> 1 (Strongly Disagree)
+                <input type="radio" name="amount" value="2"> 2
+                <input type="radio" name="amount" value="3"> 3
+                <input type="radio" name="amount" value="4"> 4
+                <input type="radio" name="amount" value="5"> 5 (Strongly Agree)
+            </form>
+        </div>
+
+        <div class="questions-2 row">
+            <span class="q-number">Q2.</span>
+            <span>Generally speaking, you rely more on your experience than your imagination.</span>
+            <form action="" class="chosen" id="q-2">
+                <input type="radio" name="amount" value="1" checked> 1
+                <input type="radio" name="amount" value="2"> 2
+                <input type="radio" name="amount" value="3"> 3
+                <input type="radio" name="amount" value="4"> 4
+                <input type="radio" name="amount" value="5"> 5
+            </form>
+        </div>
+
+        <div class="questions-1 row">
+            <span class="q-number">Q3.</span>
+            <span>You find it easy to stay relaxed and focused even when there is some pressure.</span>
+            <form action="" class="chosen" id="q-3">
+                <input type="radio" name="amount" value="1" checked> 1
+                <input type="radio" name="amount" value="2"> 2
+                <input type="radio" name="amount" value="3"> 3
+                <input type="radio" name="amount" value="4"> 4
+                <input type="radio" name="amount" value="5"> 5
+            </form>
+        </div>
+
+        <div class="questions-2 row">
+            <span class="q-number">Q4.</span>
+            <span>You rarely do something just out of sheer curiosity.</span>
+            <form action="" class="chosen" id="q-4">
+                <input type="radio" name="amount" value="1" checked> 1
+                <input type="radio" name="amount" value="2"> 2
+                <input type="radio" name="amount" value="3"> 3
+                <input type="radio" name="amount" value="4"> 4
+                <input type="radio" name="amount" value="5"> 5
+            </form>
+        </div>
+
+        <div class="questions-1 row">
+            <span class="q-number">Q5.</span>
+            <span>People can rarely upset you.</span>
+            <form action="" class="chosen" id="q-5">
+                <input type="radio" name="amount" value="1" checked> 1
+                <input type="radio" name="amount" value="2"> 2
+                <input type="radio" name="amount" value="3"> 3
+                <input type="radio" name="amount" value="4"> 4
+                <input type="radio" name="amount" value="5"> 5
+            </form>
+        </div>
+
+        <div class="questions-2 row">
+            <span class="q-number">Q6.</span>
+            <span>It is often difficult for you to relate to other people’s feelings.</span>
+            <form action="" class="chosen" id="q-6">
+                <input type="radio" name="amount" value="1" checked> 1
+                <input type="radio" name="amount" value="2"> 2
+                <input type="radio" name="amount" value="3"> 3
+                <input type="radio" name="amount" value="4"> 4
+                <input type="radio" name="amount" value="5"> 5
+            </form>
+        </div>
+
+        <div class="questions-1 row">
+            <span class="q-number">Q7.</span>
+            <span>In a discussion, truth should be more important than people’s sensitivities.</span>
+            <form action="" class="chosen" id="q-7">
+                <input type="radio" name="amount" value="1" checked> 1
+                <input type="radio" name="amount" value="2"> 2
+                <input type="radio" name="amount" value="3"> 3
+                <input type="radio" name="amount" value="4"> 4
+                <input type="radio" name="amount" value="5"> 5
+            </form>
+        </div>
+
+        <div class="questions-2 row">
+            <span class="q-number">Q8.</span>
+            <span>Your mind is always buzzing with unexplored ideas and plans.</span>
+            <form action="" class="chosen" id="q-8">
+                <input type="radio" name="amount" value="1" checked> 1
+                <input type="radio" name="amount" value="2"> 2
+                <input type="radio" name="amount" value="3"> 3
+                <input type="radio" name="amount" value="4"> 4
+                <input type="radio" name="amount" value="5"> 5
+            </form>
+        </div>
+
+        <div class="questions-1 row">
+            <span class="q-number">Q9.</span>
+            <span>You rarely get carried away by fantasies and ideas.</span>
+            <form action="" class="chosen" id="q-9">
+                <input type="radio" name="amount" value="1" checked> 1
+                <input type="radio" name="amount" value="2"> 2
+                <input type="radio" name="amount" value="3"> 3
+                <input type="radio" name="amount" value="4"> 4
+                <input type="radio" name="amount" value="5"> 5
+            </form>
+        </div>
+
+        <div class="questions-2 row">
+            <span class="q-number">Q10.</span>
+            <span>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</span>
+            <form action="" class="chosen" id="q-10">
+                <input type="radio" name="amount" value="1" checked> 1
+                <input type="radio" name="amount" value="2"> 2
+                <input type="radio" name="amount" value="3"> 3
+                <input type="radio" name="amount" value="4"> 4
+                <input type="radio" name="amount" value="5"> 5
+            </form>
+        </div>
+
+        <div class="submit">
+            <button type="submit" class="submit-btn">Submit</button>
+        </div>
+    </div>
+
+    <hr>
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <a href="/api/friends">API Friends List</a> |
+                <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a>
+            </p>
+        </div>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="match-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Best Match!</h4>
+                    </div>
+                    <div class="modal-body">
+                        <h2 id="match-name"></h2>
+                        <img src="" alt="" id="match-img">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+    </footer>
+
+    <script type="text/javascript">
+        $(".submit-btn").on("click", function (event) {
+            event.preventDefault();
+
+            function validUserInput() {
+                var validInput = true;
+                $(".user-info").each(function () {
+                    if ($(this).val() === "") {
+                        validInput = false;
+                    }
+                })
+
+                // I left this in here cause I am not entirely sure why it didn't work.
+                // Which is why I did an auto check to 1 for every radio button.
+            
+                // $(".chosen").each(function () {
+                //     if ($(this).val() === NaN) {
+                //         validInput = false;
+                //     }
+                // })
+                return validInput;
+            }
+            console.log(validUserInput());
+
+            if (validUserInput() === true) {
+                var parsedQ1 = parseInt($('#q-1 input[type=radio]:checked').val());
+                var parsedQ2 = parseInt($('#q-2 input[type=radio]:checked').val());
+                var parsedQ3 = parseInt($('#q-3 input[type=radio]:checked').val());
+                var parsedQ4 = parseInt($('#q-4 input[type=radio]:checked').val());
+                var parsedQ5 = parseInt($('#q-5 input[type=radio]:checked').val());
+                var parsedQ6 = parseInt($('#q-6 input[type=radio]:checked').val());
+                var parsedQ7 = parseInt($('#q-7 input[type=radio]:checked').val());
+                var parsedQ8 = parseInt($('#q-8 input[type=radio]:checked').val());
+                var parsedQ9 = parseInt($('#q-9 input[type=radio]:checked').val());
+                var parsedQ10 = parseInt($('#q-10 input[type=radio]:checked').val());
+
+                var userInput = {
+                    name: $("#name").val(),
+                    photo: $("#photo").val(),
+                    answers: [
+                        parsedQ1,
+                        parsedQ2,
+                        parsedQ3,
+                        parsedQ4,
+                        parsedQ5,
+                        parsedQ6,
+                        parsedQ7,
+                        parsedQ8,
+                        parsedQ9,
+                        parsedQ10
+                    ]
+                }
+
+                $.post("/api/friends", userInput, function (data) {
+                    $("#match-name").text(data.name);
+                    $("#match-img").attr("src", data.photo);
+                    $('#match-modal').modal("toggle");
+                })
+            } else {
+                alert("Please fill out all info!")
+            }
+        })
+
+
+    </script>
+</body>
+
+</html>

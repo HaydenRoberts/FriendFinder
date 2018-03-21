@@ -1,0 +1,120 @@
+.header {
+    background-color: rgb(251, 197, 170);
+    color: white;
+    font-family: 'Shrikhand', cursive;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    padding: 2%;
+    position: relative;
+    letter-spacing: 2px;
+    transition: .5s;
+}
+
+.logo:hover {
+    letter-spacing: 10px;
+}
+
+#match {
+    border: 4pt double white;
+    padding: 4px 8px 0px 8px;
+}
+
+.steps {
+    color: rgb(144, 164, 173);
+    font-size: 25px;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.directions {
+    font-family: 'Shrikhand', cursive;
+}
+
+.find-btn {
+    font-family: 'Shrikhand', cursive;
+    background-color: rgb(144, 164, 173);
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    letter-spacing: 1.5px;
+    transition: .5s;
+}
+
+.find-btn:hover {
+    transform: skew(-0.06turn);
+}
+
+.survey {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.questions-1 {
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+
+.questions-2 {
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(251, 197, 170);;
+    color: white;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+
+.q-number {
+    font-family: 'Cabin', sans-serif;
+}
+
+.form {
+    padding: 15px;
+}
+
+input[type="radio"]{
+    margin: 0 10px 0 10px;
+}
+
+.about {
+    font-family: 'Cabin', sans-serif;
+    padding: 15px 0 15px 0;
+}
+
+.user-info {
+    width: 100%;
+}
+
+.submit-btn {
+    background-color: rgb(144, 164, 173);
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+.submit-btn:hover {
+    background-color: rgb(129, 148, 156);
+}
+
+.submit {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#match-img {
+    height: -webkit-fill-available;
+}
